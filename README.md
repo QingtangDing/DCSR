@@ -15,7 +15,7 @@ The pytorch implementation of ''Not All Patches Are Equal: Hierarchical Dataset 
 
 ## Method
 
-<p align="center"> <img src="Figs/condensation_method.jpeg" width="100%"> </p>
+<p align="center"> <img src="Figs/method.jpeg" width="100%"> </p>
 
 ## Requirements
 
