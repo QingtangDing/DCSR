@@ -31,6 +31,7 @@ The pytorch implementation of ''Not All Patches Are Equal: Hierarchical Dataset 
 
 ### 1. Prepare condensation dataset
 1.1 Download the [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
+
 1.2 Crop the HR images into image patches in 'data_path/DIV2K/HR'
 
 ### 2. Texture complexity-based condensation strategy
