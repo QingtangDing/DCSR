@@ -2,17 +2,6 @@
 
 The pytorch implementation of ''Not All Patches Are Equal: Hierarchical Dataset Condensation for Single Image Super-Resolution'', SPL 2023.
 
-## Motivation
-
-###   Super-resolution network parameter matching
-- Download the [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and crop the images into patches.
-- Select patches with different complexities and  patches with different texture categories in DIV2K to compose different data subsets
--  Train super-resolution network using DIV2K and different data subsets. Note modifying the dataset path.
-- Calculate the parameter matching error using the following command.
-- ```bash
-  python parameter_matching.py
-  ```
-
 ## Method
 
 <p align="center"> <img src="Figs/method.jpeg" width="100%"> </p>
